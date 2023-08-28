@@ -5,7 +5,7 @@ const prods = [
     price: 2.85,
     instock: 43,
     description: "Jus de Pomme Doux Elopack 1L Bio ",
-    image: "../images/pomme.jpg",
+    image: "./images/pomme.jpg",
   },
   {
     id: 2,
