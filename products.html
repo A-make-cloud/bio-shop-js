@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>base</title>
+        <!-- bootstrap css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+       
+
+    </head>
+    <body>
+               <main>
+            <nav>
+                <div id="logo">
+                    <img src="images/logoBioShop.png" alt="logo" srcset>
+                </div>
+                <div id="link_pages">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="products.html">Nos Produits</a></li>
+                </div>
+                <div id="connexion">
+                    <li><a href="connexion.html">S'inscrire</a></li>
+                    <li><a href="connexion.html">Login</a></li>
+                
+                    <li onclick="openCart()"><a href="#"><i
+                                class="fas fa-basket-shopping"></i></a></li>
+
+                </div>
+            </nav>
+            <section id="products-title">
+                <h4>Nos Produits</h4>
+
+            </section>
+            <section id="products-head">
+                <div id="products-images">
+                    <div id="prod_1">
+                        <img src="images/produitslaitiers.png" alt="produits">
+                    </div>
+                    <div id="prod_2">
+                        <img src="images/fruitsetlegumes.png"
+                            alt="produits">
+                    </div>
+                    <div id="prod_3">
+
+                        <img src="images/viandes.png" alt="produits">
+                    </div>
+                    <div id="prod_4">
+
+                        <img src="images/boissons.png" alt="produits">
+                    </div>
+                </div>
+            </section>
+            <section id="container">
+                <p class="title">Tous nos produits:</p>
+                <div id="products">
+
+                                  </div>
+            </section>
+            <!-- <section id="container_panier"> -->
+                <section id="container_panier" class="hide">
+                <section id="cart-title">
+                    <h3>Votre Panier</h3>
+                    <button>Vider le panier</button>
+                    <button><i
+                            class="fas fa-shopping-cart"></i>&nbsp;Ajouter des
+                        articles</button>
+
+                </section>
+                <i class="fas fa-close" onclick="closeCart()"></i>
+
+                <h4>Produits Dans Votre Panier</h4>
+
+                <section>
+                    <div id="cart_conteneur">
+
+                    </div>
+                </section>
+                <div id="recapitulatif_title">
+
+                    <h4>Récapitulatif de Votre Panier : <span id="total-item">0</span>
+                        items
+                    </h4><br>
+                </div>
+                <section id="recapitulatif_panier">
+
+                    <div id="total_panier">
+
+                        <div id="totalHT">
+                            <h5>Total :
+                                <div> <span id="prixht">15</span> €
+                                </div>
+                            </h5>
+                        </div>
+ 
+                        <hr>
+   
+                        </div>
+                    </div>
+
+                </section>
+            </section>
+            <footer>
+                <div class="footTop">
+                    <div class="adresse">
+                        <div class="lieu">
+                            <h6>6 8 Rue Georges et Mai Politzer,</h6>
+                            <h6>75012 Paris, France</h6>
+                            <h6>+33 9 72 72 39 36</h6>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.827210347495!2d2.3886980157393647!3d48.842434479286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6726cfede9bd1%3A0xd89b54592ecfc41a!2s8%20Rue%20Georges%20et%20Mai%20Politzer%206%2C%2075012%20Paris!5e0!3m2!1sfr!2sfr!4v1636021709020!5m2!1sfr!2sfr"
+                        width="150" height="150" style="border:0;"
+                        allowfullscreen loading="lazy"></iframe>
+                </div>
+                <div id="link_pages_footer">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="products.html">Nos Produits</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                </div>
+                <div id="logo_footer">
+                    <img src="images/logoBioShop.png" alt="logo" srcset>
+
+                </div>
+                <div class="reseau">
+                    <a
+                        href="https://www.linkedin.com/in/agnès-cloud-1a290a1b4/"
+                        target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/A-make-cloud"
+                        target="_blank"><i class="fa-brands fa-github"
+                            aria-hidden="true"></i></a>
+
+                    <a href="https://www.pinterest.fr/Agnes_Cloud/_saved/"
+                        target="_blank"><i class="fa-brands fa-pinterest"
+                            aria-hidden="true"></i></a>
+                </div>
+
+            </footer>
+
+            <div class="footBottom">
+                <div class="copyright">
+
+                    <p>Copyright 2023 © Agnès Cloud | Tous droits réservés
+                        &nbsp;<span><a href="#" target="_blank">
+                                Conditions
+                                d'utilisation </a></span><span><a href="#"
+                                target="_blank"> Mentions légales </a></span></p>
+                </div>
+            </div>
+        </main>
+        <script src="catalogue.js"></script>
+        <script src="js/app.js"></script>
+
+    </body>
+</html>
