@@ -13,7 +13,7 @@ const prods = [
     price: 7.70,
     instock: 10,
     description: "Chorizo extra doux 275G Bio ",
-    image: "../images/chorizo.jpg",
+    image: "./images/chorizo.jpg",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const prods = [
     price: 1.72,
     instock: 5,
     description: "Kéfir 500ML Bio ",
-    image: "../images/lait.jpg",
+    image: "./images/lait.jpg",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const prods = [
     price: 1.85,
     instock: 4,
     description: "Thé glacé gingembre Charitea Green 330Ml Bio ",
-    image: "../images/the-glace.jpg",
+    image: "./images/the-glace.jpg",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const prods = [
     price: 4.99,
     instock: 40,
     description: "Saucisses du Berger x4 230g Bio ",
-    image: "../images/saucisses.jpg",
+    image: "./images/saucisses.jpg",
   },
   {
     id: 6,
@@ -45,14 +45,14 @@ const prods = [
     price: 29.99,
     instock: 100,
     description: "Cocktail de légumes 75Cl Bio ",
-    image: "../images/cocktail-legumes.jpg",
+    image: "./images/cocktail-legumes.jpg",
   }, {
     id: 7,
     name: "Patate douce",
     price: 2.25,
     instock: 100,
     description: "Patate douce 500G Bio",
-    image: "../images/patate-douce.jpg",
+    image: "./images/patate-douce.jpg",
   },
   {
     id: 8,
@@ -60,7 +60,7 @@ const prods = [
     price: 2.91,
     instock: 100,
     description: "Jus Pomme Fraise 75Cl Bio ",
-    image: "../images/fraises.jpg",
+    image: "./images/fraises.jpg",
   },
   {
     id: 9,
@@ -68,7 +68,7 @@ const prods = [
     price: 3.74,
     instock: 100,
     description: "Figue violette x3 Bio ",
-    image: "../images/figues.jpg",
+    image: "./images/figues.jpg",
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ const prods = [
     instock: 100,
     description:
       "Mélange De Fruits Secs 400g Bio",
-    image: "../images/fruits-secs.jpg",
+    image: "./images/fruits-secs.jpg",
   },
   {
     id: 11,
@@ -86,7 +86,7 @@ const prods = [
     instock: 100,
     description:
       "Petit plat bébé 8 mois Bio.",
-    image: "../images/risotto-legumes.jpg",
+    image: "./images/risotto-legumes.jpg",
   },
   {
     id: 12,
@@ -95,6 +95,6 @@ const prods = [
     instock: 100,
     description:
       "Fromage blanc de brebis bio origine France Naturalia.",
-    image: "../images/fromage-blanc.jpg",
+    image: "./images/fromage-blanc.jpg",
   },
 ];
