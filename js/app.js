@@ -52,6 +52,7 @@ function totalCart() {
     totalItem.innerHTML = totalItems
 
 }
+let count = 0;
 let cart = []
 function addtocart(id) {
     if (cart.some((item) => item.id === id)) {
@@ -108,14 +109,16 @@ function renderCart() {
 
     });
 }
-
+let countPanier = document.getElementById('countPanier')
 function changeQty(action, id) {
     cart = cart.map((item) => {
         let nbrItem = item.nbrItem
         if (item.id === id) {
             if (action === 'moins' && nbrItem > 1) {
+                count--
                 nbrItem--
             } else if (action === 'plus') {
+                count++
                 nbrItem++
 
             }
@@ -125,7 +128,7 @@ function changeQty(action, id) {
             nbrItem,
         }
     });
-
+countPanier.innerHTML = count
     updateCart()
 
 }
