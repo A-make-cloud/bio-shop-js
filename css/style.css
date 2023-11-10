@@ -88,6 +88,25 @@
 
   .fa-basket-shopping {
       color: #fff;
+      font-size: 1.2em;
+  }
+
+  #linkPanier {
+      position: relative;
+
+  }
+
+  #countPanier {
+      color: #1A2027;
+      background-color: white;
+      border-radius: 5px;
+      text-align: center;
+      font-size: 0.7em;
+      padding: 2px 4px;
+      position: absolute;
+      left: 100%;
+      top: -11px;
+
   }
 
   header {
